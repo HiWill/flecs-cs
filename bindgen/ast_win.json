@@ -10,4 +10,7 @@
         "x86_64-pc-windows-msvc": {}
       }
     }
+	"cs": {
+      "is_enabled_function_pointers": false, 
+    }
 }
