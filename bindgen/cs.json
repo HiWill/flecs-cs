@@ -4,6 +4,7 @@
     "output_file": "../src/cs/production/Flecs/flecs.cs",
     "namespace": "flecs_hub",
     "library_name": "flecs",
+    "is_enabled_function_pointers": false,
     "ignored_names": [
       "FLECS_FLOAT",
       "ECS_FUNC_NAME_BACK"

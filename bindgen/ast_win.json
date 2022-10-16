@@ -13,8 +13,5 @@
         
       }
     }
-  },
-  "cs": {
-    "is_enabled_function_pointers": false
   }
 }
