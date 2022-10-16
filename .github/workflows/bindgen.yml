@@ -1,14 +1,13 @@
 name: "Bindgen"
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
 
   bindgen-ast-job:
     name: "Bindgen AST"
     runs-on: ${{ matrix.platform.os }}
-    if: github.actor == 'dependabot[bot]' || github.actor == 'lithiumtoast' || github.actor == 'BlackPhoenix134'
     strategy:
       fail-fast: false
       matrix:
